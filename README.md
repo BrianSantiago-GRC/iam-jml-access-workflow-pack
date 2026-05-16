@@ -23,6 +23,15 @@ It is built as a junior-level portfolio artifact focused on practical access con
 - `ACCESS_APPROVAL_MATRIX.md`
 - `OFFBOARDING_CHECKLIST.md`
 - `RISK_NOTES.md`
+- `screenshots/` (sample visuals of key artifacts)
+
+## Sample Screenshots
+
+![JML Workflow](screenshots/01-jml-workflow.png)
+![Access Request Form Template](screenshots/02-access-request-form-template.png)
+![Access Approval Matrix](screenshots/03-access-approval-matrix.png)
+![Offboarding Checklist](screenshots/04-offboarding-checklist.png)
+![Risk Notes](screenshots/05-risk-notes.png)
 
 ## Why This Matters
 
