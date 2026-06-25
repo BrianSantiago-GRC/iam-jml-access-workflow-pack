@@ -1,3 +1,17 @@
+<!-- recruiter-review:start -->
+## Recruiter Quick Review
+
+**Best-fit roles:** IT Support Specialist, Help Desk, Desktop Support, IAM Support, Access Management Support, GRC Analyst, IT Compliance, onboarding/offboarding support.
+
+**What this proves:** I can document joiner, mover, and leaver access workflows, connect support tickets to access control, and create repeatable evidence for approvals, offboarding, least privilege, and audit readiness.
+
+**Search keywords:** IAM, joiner mover leaver, JML, onboarding, offboarding, access request, access approval, least privilege, account lifecycle, Active Directory, Entra ID, Microsoft 365, access control, audit evidence, GRC, compliance.
+
+**Start here:** [RECRUITER_REVIEW.md](RECRUITER_REVIEW.md)
+
+**Honest scope:** Portfolio workflow pack using sample process design. This does not claim enterprise IAM ownership or senior identity architecture.
+<!-- recruiter-review:end -->
+
 # IAM Joiner-Mover-Leaver (JML) Access Workflow Pack
 
 ## Project Purpose
