@@ -1,66 +1,31 @@
-<!-- recruiter-review:start -->
-## Recruiter Quick Review
+# IAM Joiner-Mover-Leaver Workflow Pack
 
-**Best-fit roles:** IT Support Specialist, Help Desk, Desktop Support, IAM Support, Access Management Support, GRC Analyst, IT Compliance, onboarding/offboarding support.
+**A sample identity-lifecycle workflow connecting support tickets, approvals, least privilege, and offboarding evidence.**
 
-**What this proves:** I can document joiner, mover, and leaver access workflows, connect support tickets to access control, and create repeatable evidence for approvals, offboarding, least privilege, and audit readiness.
+## Problem, Action, Result
 
-**Search keywords:** IAM, joiner mover leaver, JML, onboarding, offboarding, access request, access approval, least privilege, account lifecycle, Active Directory, Entra ID, Microsoft 365, access control, audit evidence, GRC, compliance.
+**Problem:** New hires, role changes, and departures create security and productivity risk when requests, approvals, access changes, and validation are not documented consistently.
 
-**Start here:** [RECRUITER_REVIEW.md](RECRUITER_REVIEW.md)
+**Action:** I designed joiner, mover, and leaver steps, an access-request template, a role/sensitivity approval matrix, an offboarding checklist, and risk notes.
 
-**Honest scope:** Portfolio workflow pack using sample process design. This does not claim enterprise IAM ownership or senior identity architecture.
-<!-- recruiter-review:end -->
+**Result:** The pack provides one reviewable handoff from business request through access fulfillment or removal. It is sample process design, not proof of enterprise IAM architecture or automated provisioning ownership.
 
-# IAM Joiner-Mover-Leaver (JML) Access Workflow Pack
+## 90-Second Review
 
-## Project Purpose
+1. Follow [`JML_WORKFLOW.md`](JML_WORKFLOW.md).
+2. Review the [`access request`](ACCESS_REQUEST_FORM_TEMPLATE.md) and [`approval matrix`](ACCESS_APPROVAL_MATRIX.md).
+3. Inspect the [`offboarding checklist`](OFFBOARDING_CHECKLIST.md).
+4. Read [`RISK_NOTES.md`](RISK_NOTES.md) for failure modes and controls.
 
-This project shows a simple IAM workflow for onboarding, role changes, and offboarding.
+## Support-to-Security Connection
 
-It is built as a junior-level portfolio artifact focused on practical access control documentation.
+| Support task | Security evidence created |
+|---|---|
+| Create or change an account | Approved request, role, systems, and effective date |
+| Add group or application access | Business owner and sensitivity-based approval |
+| Process a role change | Removal of old access before or with new access |
+| Offboard a user | Disablement, session/token action, asset return, and completion validation |
 
-## What This Pack Covers
+## Scope Boundary
 
-- Joiner workflow (new hire access setup)
-- Mover workflow (role change access updates)
-- Leaver workflow (offboarding and access removal)
-- Access request template
-- Approval matrix by role and system sensitivity
-- Offboarding checklist
-- Basic risk notes
-
-## Files
-
-- `JML_WORKFLOW.md`
-- `ACCESS_REQUEST_FORM_TEMPLATE.md`
-- `ACCESS_APPROVAL_MATRIX.md`
-- `OFFBOARDING_CHECKLIST.md`
-- `RISK_NOTES.md`
-- `screenshots/` (sample visuals of key artifacts)
-
-## Sample Screenshots
-
-![JML Workflow](screenshots/01-jml-workflow.png)
-![Access Request Form Template](screenshots/02-access-request-form-template.png)
-![Access Approval Matrix](screenshots/03-access-approval-matrix.png)
-![Offboarding Checklist](screenshots/04-offboarding-checklist.png)
-![Risk Notes](screenshots/05-risk-notes.png)
-
-## Why This Matters
-
-Weak identity lifecycle controls can lead to over-permissioned accounts, stale access, and audit findings.
-
-A clear JML process supports:
-
-- least privilege
-- faster onboarding
-- cleaner role transitions
-- lower offboarding risk
-- better audit readiness
-
-## Scope and Positioning
-
-This is a practical documentation project using sample process design.
-
-It does not claim enterprise IAM ownership or senior architect responsibilities.
+The workflow and screenshots are generated portfolio artifacts. They do not come from a live ticketing, HR, Entra, or IAM platform and do not claim enterprise identity-governance ownership.
